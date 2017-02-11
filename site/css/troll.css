@@ -1,0 +1,43 @@
+/* Mobile first */
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+article, aside {
+  flex-basis: 100%;
+}
+
+
+@media only screen and (min-width: 800px) {
+  article, aside {
+    flex: 1;
+  }
+
+  ._5 {
+    flex: 0.5;
+  }
+
+  ._10 {
+    flex: 1;
+  }
+
+  ._15 {
+    flex: 1.5;
+  }
+
+  ._20 {
+    flex: 2;
+  }
+
+  ._25 {
+    flex: 2.5;
+  }
+}

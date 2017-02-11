@@ -1,0 +1,25 @@
+{
+  "name": "troll",
+  "version": "1.0.0",
+  "description": "Web Development Workspace by Blåtroll",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss site/css/scss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Headwiki/Troll.git"
+  },
+  "author": "Blåtroll",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Headwiki/Troll/issues"
+  },
+  "homepage": "https://github.com/Headwiki/Troll#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
