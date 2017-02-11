@@ -1,6 +1,7 @@
-I just hate Bootstrap and Foundation and I needed something more than just a css framework so I built my own website boilerplate that includes:
-html5boilerplate (with IE8+ conditional comments, normalize, etc)
+From WebDev Reddit
+
+"html5boilerplate (with IE8+ conditional comments, normalize, etc)
 no visual stuff in the css because I base my designs on my clients branding (fonts, colours)
 my own scss grid that uses flexbox and inline-blocks as a fallback
 minimal scss framework with features such as vertical centering, responsive navigation, typographic scale - all organized using BEM and Inverse Triangle CSS
-gulpfile to minify css/js, build svg spritesheets, optimize images
+gulpfile to minify css/js, build svg spritesheets, optimize images"
