@@ -1,3 +1,100 @@
-body {
-  margin: 0;
-  background-color: #fff; }
+aside {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(200deg, #27156E, #6A2A88, #9F4981);
+  transition: all .5s ease;
+  z-index: 2;
+  opacity: 0;
+  visibility: hidden; }
+
+.open {
+  opacity: 1;
+  visibility: visible; }
+
+.close {
+  position: fixed;
+  top: 40px;
+  right: 60px;
+  color: white;
+  z-index: 3;
+  cursor: pointer;
+  font-family: sans-serif; }
+  .close span,
+  .close span:before,
+  .close span:after {
+    border-radius: 4px;
+    height: 5px;
+    width: 35px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    content: ''; }
+  .close span {
+    background: transparent; }
+  .close span:before {
+    transform: rotate(45deg); }
+  .close span:after {
+    transform: rotate(-45deg); }
+
+nav {
+  text-align: center;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    nav ul li {
+      align-items: center;
+      flex: 1;
+      line-height: 20vh; }
+      nav ul li a {
+        font-size: 1.5em;
+        transition: all 0.5s ease;
+        display: block;
+        text-decoration: none;
+        color: rgba(255, 255, 255, 0.5); }
+        nav ul li a:hover {
+          color: rgba(255, 255, 255, 0.9);
+          transform: scale(1.1); }
+          nav ul li a:hover:before {
+            visibility: visible;
+            transform: scaleX(1); }
+        nav ul li a:before {
+          content: "";
+          position: absolute;
+          width: 50%;
+          height: 2px;
+          bottom: 0;
+          left: 25%;
+          background: white;
+          visibility: hidden;
+          transform: scaleX(0);
+          transition: all 0.3s ease-in-out 0s; }
+
+@media screen and (min-width: 600px) {
+  nav ul li a {
+    font-size: 3em; } }
+
+.outer-close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 85px;
+  height: 85px;
+  cursor: pointer; }
+
+button {
+  padding: 15px 40px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  color: #343434;
+  border-radius: 8px;
+  transition: all .5s ease; }
+  button:hover {
+    border: 1px solid white; }
