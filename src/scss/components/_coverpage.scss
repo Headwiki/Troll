@@ -18,6 +18,30 @@
   height: 100%;
 }
 
+h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+button {
+  background-color: #e1ae67;
+  border-radius: 5px;
+  border: none;
+  font-size: 3rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: bold;
+  color: #184062;
+  &:hover {
+    border: none;
+  }
+}
+
+.logo {
+  background-color: rgba(255,255,255,0.8);
+  height: 100%;
+}
+
 #frontPage {
   height: 100vh;
   background: linear-gradient(
@@ -33,7 +57,13 @@
   color: #fff;
 
   h1 {
+    font-size: 4.5rem;
     color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+  }
+  h3 {
+    padding: 15px 0;
   }
   img {
     padding: 0 100px;
@@ -41,8 +71,8 @@
   span {
     color: #e1ae67;
   }
-  .vert {
-    display: inline-flex;
+  button {
+    margin-top: 25px;
   }
 }
 
