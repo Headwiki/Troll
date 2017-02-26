@@ -1,0 +1,40 @@
+/* Google Block */
+
+$background-color: #fff;
+$black: #222;
+$grey: #545454;
+$green: #006621;
+
+
+
+li {
+  list-style: none;
+  background-color: $background-color;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),
+    0 0 0 1px rgba(0,0,0,0.08);
+  border-radius: 2px;
+  padding: 16px;
+  margin-bottom: 16px;
+  color: $black;
+  font-size: medium;
+  font-weight: normal;
+  text-align: left;
+  line-height: 1.2;
+  h3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -moz-text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 18px;
+  }
+  h5 a, h5 a:visited {
+    height: 18px;
+    line-height: 16px;
+    font-size: 14px;
+    color: $green;
+    word-wrap: break-word;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

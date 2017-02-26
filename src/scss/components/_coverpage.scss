@@ -1,0 +1,110 @@
+@media only screen and (max-width: $breakpoint) {
+  .hide-mobile {
+    display:none;
+  }
+  .center-mobile {
+    text-align: center;
+  }
+}
+
+.flex-column {
+  flex-flow: column;
+}
+.flex-rows {
+  flex-flow: row;
+}
+
+.vertical-center {
+  height: 100%;
+}
+
+#frontPage {
+  height: 100vh;
+  background: linear-gradient(
+		rgba(13, 73, 122, 0.40),
+		rgba(13, 73, 122, 0.40)),
+	url('../images/mountain.jpg');
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 120px;
+  color: #fff;
+
+  h1 {
+    color: #fff;
+  }
+  img {
+    padding: 0 100px;
+  }
+  span {
+    color: #e1ae67;
+  }
+  .vert {
+    display: inline-flex;
+  }
+}
+
+#kontaktPage {
+  min-height: 100vh;
+  background: linear-gradient(
+		rgba(13, 73, 122, 0.30),
+		rgba(13, 73, 122, 0.30)),
+	url('../images/river.jpg');
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 120px;
+  .vertical-center {
+    min-height: 100%;
+  }
+  p {
+    color: #fff;
+  }
+  h1, h5 {
+    color: #e1ae67;
+  }
+
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  h5 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+
+  @media only screen and (min-width: $breakpoint) {
+    .large-50:first-child {
+      padding-left: 300px;
+      padding-right: 50px;
+    }
+    .large-50:last-child {
+      padding-right: 300px;
+      padding-left: 50px;
+    }
+  }
+}
+
+#tjenesterPage {
+  min-height: 100vh;
+  background: linear-gradient(
+		rgba(13, 73, 122, 0.30),
+		rgba(13, 73, 122, 0.30)),
+	url('../images/wood.jpeg');
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 120px;
+  h1, h2 {
+    color: #e1ae67;
+  }
+  p {
+    color: #fff;
+  }
+}

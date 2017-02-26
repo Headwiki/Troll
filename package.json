@@ -19,7 +19,15 @@
   },
   "homepage": "https://github.com/Headwiki/Troll#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-newer": "^1.3.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.1",
     "node-sass": "^4.5.0",
     "nodemon": "^1.11.0"
-  }
+  },
+  "dependencies": {}
 }
