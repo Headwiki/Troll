@@ -7,6 +7,13 @@
   }
 }
 
+.jc-sb {
+  justify-content: space-between;
+}
+
+.as-fs {
+  align-self: flex-start;
+}
 .flex-column {
   flex-flow: column;
 }
@@ -39,7 +46,8 @@ button {
 
 .logo {
   background-color: rgba(255,255,255,0.8);
-  height: 100%;
+  margin: 0 100px;
+  margin-top: 17px;
 }
 
 #frontPage {
@@ -55,24 +63,32 @@ button {
   background-size: cover;
   padding-top: 120px;
   color: #fff;
+  display: flex;
 
   h1 {
     font-size: 4.5rem;
     color: #fff;
     font-family: 'Roboto', sans-serif;
+    margin-top: 0;
     margin-bottom: 50px;
   }
   h3 {
-    padding: 15px 0;
+    padding: 5px 0;
   }
   img {
-    padding: 0 100px;
+    padding: 100px;
   }
   span {
     color: #e1ae67;
   }
   button {
     margin-top: 25px;
+  }
+  .vertical-cent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
   }
 }
 
