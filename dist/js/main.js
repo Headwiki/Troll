@@ -3,6 +3,7 @@ $(function() {
     $('#nav-toggle').on('click', function() {
       this.classList.toggle('active');
       $('aside').toggleClass('open');
+      $('.vertical-cent').toggle();
     });
 
 });

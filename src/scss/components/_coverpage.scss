@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 @media only screen and (max-width: $breakpoint) {
   .hide-mobile {
     display:none;
@@ -9,6 +13,10 @@
 
 .jc-sb {
   justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
 }
 
 .as-fs {
@@ -25,13 +33,22 @@
   height: 100%;
 }
 
+.flex-row {
+  display: flex;
+  flex-flow: row;
+}
+.flex-column {
+  display: flex;
+  flex-flow: column;
+}
+
 h3 {
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-button {
+.button {
   background-color: #e1ae67;
   border-radius: 5px;
   border: none;
@@ -39,15 +56,29 @@ button {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
   color: #184062;
+  padding: 5px 15px;
   &:hover {
     border: none;
+    text-decoration: none;
+    color: #fff;
   }
+}
+
+.vertical-cent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
 }
 
 .logo {
   background-color: rgba(255,255,255,0.8);
   margin: 0 100px;
-  margin-top: 17px;
+  margin-top: 1rem;
+}
+
+.d-flex {
+  display: flex;
 }
 
 #frontPage {
@@ -68,7 +99,6 @@ button {
   h1 {
     font-size: 4.5rem;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
     margin-top: 0;
     margin-bottom: 50px;
   }
@@ -84,11 +114,9 @@ button {
   button {
     margin-top: 25px;
   }
-  .vertical-cent {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-self: center;
+
+  .info {
+    margin-right: 100px;
   }
 }
 
@@ -150,7 +178,20 @@ button {
   h1, h2 {
     color: #e1ae67;
   }
+  h1 {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+  }
   p {
     color: #fff;
+  }
+  .flex-row {
+    margin: 0 3rem;
+    justify-content: center;
+  }
+  .left, .right {
+    margin: 0 3rem;
+    width: 30%;
   }
 }
