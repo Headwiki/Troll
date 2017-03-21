@@ -10,7 +10,7 @@
  * class name - 33.3333 will be .column-33.
  */
 
-$grid: 10,20,30,40,50,60,70,80,90,100,25,16.6667,33.3333,66.6667,75;
+$grid: 10,15,20,30,40,50,60,70,80,90,100,25,16.6667,33.3333,66.6667,75;
 $column-padding: 1rem;
 $margin-bottom: 1rem;
 
@@ -21,8 +21,8 @@ $margin-bottom: 1rem;
 }
 
 %row-margin {
-  margin-left: -$column-padding;
-  margin-right: -$column-padding;
+  margin-left: $column-padding;
+  margin-right: $column-padding;
 }
 
 // Mobile column view

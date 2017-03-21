@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+    Henrik Hedlund Andersen		Developer
+    Simen Bjerkeset Andersen	Designer
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr

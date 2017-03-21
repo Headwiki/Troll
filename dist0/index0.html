@@ -11,7 +11,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/main.min.css?ver=1.11">
+        <link rel="stylesheet" href="css/main.min.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:300|Source+Sans+Pro:400,700" rel="stylesheet">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
@@ -23,38 +23,45 @@
 
         <header>
           <section class="navigation">
-              <div class="brand">
-                <a href="http://blatroll.no/"><img src="./images/blåtroll-farge-mm.png" alt="Blåtroll logo"></a>
-              </div>
-              <nav>
-                <div class="nav-mobile">
-                  <a id="nav-toggle"><span></span></a>
-                </div>
-                <ul>
-                  <li>
-                    <a href="./">Hjem</a>
-                  </li>
-                  <li><a href="/tjenester/">Tjenester</a></li>
-                  <li><a href="/omoss/">Om oss</a></li>
-                  <li><a href="/kontakt/">Kontakt</a></li>
-                </ul>
-              </nav>
+            <div class="brand">
+              <a href="http://blatroll.no/"><img src="./images/logo.png" alt="Blåtroll logo"></a>
+            </div>
+            <div class="nav-button">
+              <a id="nav-toggle"><span></span></a>
+            </div>
           </section>
+          <div class="vertical-center">
+          <aside>
+            <nav>
+              <ul>
+                <li>
+                  <a href="./">Hjem</a>
+                </li>
+                <li><a href="/tjenester/">Tjenester</a></li>
+                <li><a href="/omoss/">Om oss</a></li>
+                <li><a href="/kontakt/">Kontakt</a></li>
+              </ul>
+            </nav>
+          </aside>
+        </div>
         </header>
 
         <main>
-          <section id="frontPage" class="vertical-center">
+          <section  id="frontPage" class="vertical-center">
             <div class="container">
-              <div class="flex-row">
-                  <div class="small-100">
-                    <h1>Robuste og kreative <br>websider</h1>
-                    <h3><span>Responsivt design. </span>Tilpasset alle digitale enheter.</h3>
-                    <h3><span>Skreddersydd</span> deres behov og image.</h3>
-                    <h3><span>Unik</span> hjemmeside.</h3>
-                    <div class="center"><a href="http://blatroll.no/kontakt/" class="button">Kontakt oss</a></div>
-                  </div>
+            <div class="vertical-cent">
+                <div class="logo as-fs hide-mobile">
+                  <img src="images/blåtroll-farge-u.png" class="responsive-image " alt="Blåtroll logo">
                 </div>
-            </div>
+                <div class="info jc-sb as-fs">
+                  <h1>Robuste og kreative <br>websider</h1>
+                  <h3><span>Responsivt design. </span>Tilpasset alle digitale enheter.</h3>
+                  <h3><span>Skreddersydd</span> deres behov og image.</h3>
+                  <h3><span>Unik</span> hjemmeside.</h3>
+                  <a href="http://blatroll.no/kontakt/" class="button">Kontakt oss</a>
+                </div>
+              </div>
+              </div>
           </section>
         </main>
         <footer>
@@ -62,8 +69,9 @@
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
-        <script src="./js/plugins.js?ver=1.0"></script>
-        <script src="./js/menu.js?ver=1.0"></script>
+        <script src="./js/plugins.js"></script>
+        <script src="./js/main.js"></script>
+        <script src="./js/menu.js"></script>
 
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
